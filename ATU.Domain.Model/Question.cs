@@ -15,6 +15,8 @@ namespace ATU.Domain.Model
         [Required]
         public string Text { get; set; }
 
+        public bool Faq { get; set; }
+
         public virtual List<Answer> Answers { get; set; }
 
         [Required]

@@ -34,3 +34,7 @@ C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.csproj.GenerateResource.Cache
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.dll
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.Migrations.AddedQuestionCategory.resources
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.Migrations.AddedTextText.resources
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.Migrations.RemovedQuestionCategory.resources
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data\obj\Debug\ATU.Domain.Data.Migrations.AddedFaqProperty.resources

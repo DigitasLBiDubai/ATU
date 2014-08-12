@@ -48,7 +48,7 @@ namespace ATU.Web.Interface.Api
             var question = Mapper.Map<QuestionFields, Question>(value);
 
             _questionService.Create(question);
-            return new HttpResponseMessage { StatusCode = HttpStatusCode.OK, ReasonPhrase = "Request Question" };
+            return new HttpResponseMessage { StatusCode = HttpStatusCode.Created, ReasonPhrase = "Question Created" };
         }
     }
 }

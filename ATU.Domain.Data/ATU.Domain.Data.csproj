@@ -66,6 +66,22 @@
     <Compile Include="Migrations\201408080549057_Creation.Designer.cs">
       <DependentUpon>201408080549057_Creation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201408121307526_AddedQuestionCategory.cs" />
+    <Compile Include="Migrations\201408121307526_AddedQuestionCategory.Designer.cs">
+      <DependentUpon>201408121307526_AddedQuestionCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201408121316598_AddedTextText.cs" />
+    <Compile Include="Migrations\201408121316598_AddedTextText.Designer.cs">
+      <DependentUpon>201408121316598_AddedTextText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201408121328087_RemovedQuestionCategory.cs" />
+    <Compile Include="Migrations\201408121328087_RemovedQuestionCategory.Designer.cs">
+      <DependentUpon>201408121328087_RemovedQuestionCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201408121340399_AddedFaqProperty.cs" />
+    <Compile Include="Migrations\201408121340399_AddedFaqProperty.Designer.cs">
+      <DependentUpon>201408121340399_AddedFaqProperty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeedData.cs" />
@@ -83,6 +99,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201408080549057_Creation.resx">
       <DependentUpon>201408080549057_Creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408121307526_AddedQuestionCategory.resx">
+      <DependentUpon>201408121307526_AddedQuestionCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408121316598_AddedTextText.resx">
+      <DependentUpon>201408121316598_AddedTextText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408121328087_RemovedQuestionCategory.resx">
+      <DependentUpon>201408121328087_RemovedQuestionCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408121340399_AddedFaqProperty.resx">
+      <DependentUpon>201408121340399_AddedFaqProperty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

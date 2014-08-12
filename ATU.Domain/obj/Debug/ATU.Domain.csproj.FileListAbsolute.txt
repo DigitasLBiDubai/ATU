@@ -53,3 +53,6 @@ C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\obj\Debug\ATU.Domain.csproj.App
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\obj\Debug\ATU.Domain.csprojResolveAssemblyReference.cache
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\obj\Debug\ATU.Domain.dll
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\obj\Debug\ATU.Domain.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\bin\Debug\EntityFramework.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\bin\Debug\ATU.Domain.Model.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain\bin\Debug\EntityFramework.xml

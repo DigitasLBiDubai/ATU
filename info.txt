@@ -1,8 +1,18 @@
 Azure DB:
 
+ - zvp4h1odi7.database.windows.net,1433
  - Name: atuAiBU0lOQvLSa3
  - UN: adminatuAiBU0lOQvLSa3
  - Pass: dminatuAiBU0lOQvLSa3!
+
+To update the database:
+
+ - On any model change
+ - (new entity?) => add the dbset property to the db context ATU.Domain.Data.ATUContext public DbSet<MyEntity> MyEntity { get; set; }
+ - Open "Package Manager Console" tab
+ - Select the data project. (ATU.Domain.Data)
+ - Run: Add-Migration <name of migration>
+ - Run: Update-Database 
 
 Git:
 
@@ -10,14 +20,14 @@ Git:
 
 Todo:
 
+ - Restrict access to admin site
  - Question detail page
  - Input type text bug
- - Plug-in notification emails
+ - Plug-in notification emails (sendgrid maybe)
  - Implement answer workflow with answer approval
  - Answer push notification
  - Username creation via app
  - Login api
- - User roles management on the back-end
  - Insert questions into db
  - Produce and use icon and splash screen images
 

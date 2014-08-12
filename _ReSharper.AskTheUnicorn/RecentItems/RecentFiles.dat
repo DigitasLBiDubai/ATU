@@ -1,4 +1,43 @@
 ﻿<RecentFiles>
-  <RecentFiles />
-  <RecentEdits />
+  <RecentFiles>
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Controllers/f:ControllerBase.cs" caret="0" fromTop="0" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Controllers/f:AnswerController.cs" caret="462" fromTop="15" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Api/f:ApiControllerBase.cs" caret="212" fromTop="7" />
+    <File id="C17825B6-F4F6-45C0-A372-88932C941845/d:Concrete/f:ATURepository.cs" caret="400" fromTop="17" />
+    <File id="C17825B6-F4F6-45C0-A372-88932C941845/d:Abstract/f:IRepository.cs" caret="676" fromTop="17" />
+    <File id="609D6A1D-A23E-4ACC-ACA3-AB12E852B2E7/f:Constants.cs" caret="278" fromTop="10" />
+    <File id="609D6A1D-A23E-4ACC-ACA3-AB12E852B2E7/f:Enums.cs" caret="232" fromTop="13" />
+    <File id="609D6A1D-A23E-4ACC-ACA3-AB12E852B2E7/d:Concrete/f:QuestionService.cs" caret="541" fromTop="19" />
+    <File id="00CF5C1B-A275-4DAC-865B-4CA4ACACDE28/d:Concrete/f:InMemoryCache.cs" caret="0" fromTop="0" />
+    <File id="00CF5C1B-A275-4DAC-865B-4CA4ACACDE28/d:Concrete/f:ModelMapper.cs" caret="0" fromTop="0" />
+    <File id="00CF5C1B-A275-4DAC-865B-4CA4ACACDE28/d:Concrete/f:TableFactory.cs" caret="0" fromTop="0" />
+    <File id="00CF5C1B-A275-4DAC-865B-4CA4ACACDE28/d:Concrete/f:TopNavFactory.cs" caret="0" fromTop="0" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Api/f:AnswerController.cs" caret="0" fromTop="0" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/d:Migrations/f:201408121307526_AddedQuestionCategory.cs" caret="670" fromTop="26" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/f:SeedData.cs" caret="99" fromTop="7" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Api/f:QuestionController.cs" caret="331" fromTop="11" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/d:Migrations/f:201408121316598_AddedTextText.cs" caret="443" fromTop="18" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/f:ATUContext.cs" caret="426" fromTop="16" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/d:Migrations/f:201408121328087_RemovedQuestionCategory.cs" caret="329" fromTop="12" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Views/d:Shared/d:Forms/f:_Login.cshtml" caret="0" fromTop="0" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Views/d:Shared/d:Forms/f:_Register.cshtml" caret="888" fromTop="22" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Views/d:Answer/f:Create.cshtml" caret="453" fromTop="16" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Views/d:Question/f:Index.cshtml" caret="194" fromTop="7" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Views/d:Shared/d:Structures/d:Table/f:_Table.cshtml" caret="0" fromTop="0" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Views/d:Shared/d:Structures/d:Table/f:_Body.cshtml" caret="177" fromTop="9" />
+    <File id="05081C83-CD1D-4772-B0E9-BE3134F6B351/f:Answer.cs" caret="383" fromTop="16" />
+    <File id="05081C83-CD1D-4772-B0E9-BE3134F6B351/f:Question.cs" caret="603" fromTop="24" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/d:Migrations/f:201408121340399_AddedFaqProperty.cs" caret="436" fromTop="18" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Controllers/f:RequestController.cs" caret="370" fromTop="14" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Controllers/f:HomeController.cs" caret="189" fromTop="8" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Api/f:ApiControllerBase.cs" caret="212" fromTop="7" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Api/f:AnswerController.cs" caret="305" fromTop="10" />
+    <File id="F0CD75DD-9E97-471E-9085-8A54505F5F99/d:Api/f:QuestionController.cs" caret="1785" fromTop="38" />
+    <File id="05081C83-CD1D-4772-B0E9-BE3134F6B351/f:Answer.cs" caret="427" fromTop="17" />
+    <File id="AEA066C1-7D7F-48F6-ACAD-44EC2773A46E/f:ATUContext.cs" caret="426" fromTop="16" />
+    <File id="05081C83-CD1D-4772-B0E9-BE3134F6B351/f:Question.cs" caret="445" fromTop="17" />
+  </RecentEdits>
 </RecentFiles>
