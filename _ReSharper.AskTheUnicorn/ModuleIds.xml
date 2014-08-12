@@ -4,4 +4,5 @@
   <Module PersistentId="3F01BB1E-696C-4BA6-A5B8-56C9EA8A05A6" ModuleId="ATU.Web.Domain.Model" />
   <Module PersistentId="609D6A1D-A23E-4ACC-ACA3-AB12E852B2E7" ModuleId="ATU.Domain" />
   <Module PersistentId="05081C83-CD1D-4772-B0E9-BE3134F6B351" ModuleId="ATU.Domain.Model" />
+  <Module PersistentId="C17825B6-F4F6-45C0-A372-88932C941845" ModuleId="ATU.Domain.Data.Repository" />
 </Modules>

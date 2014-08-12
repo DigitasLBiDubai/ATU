@@ -14,7 +14,7 @@ using System.Web.Http.Cors;
 namespace ATU.Web.Interface.Api
 {
     [EnableCors("*", "*", "*")]
-    public class QuestionController : ApiController
+    public class QuestionController : ApiControllerBase
     {
         private readonly IQuestionService _questionService = new QuestionService(new ATURepository());
 
