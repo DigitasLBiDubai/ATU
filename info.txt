@@ -1,0 +1,18 @@
+Azure DB:
+
+ - Name : atuAiBU0lOQvLSa3
+ - UN: adminatuAiBU0lOQvLSa3
+ - Pass: dminatuAiBU0lOQvLSa3!
+
+Todo:
+
+ - Question detail page
+ - 
+
+Todo to go live:
+
+ - Check-in code to digitaslbi github
+ - Create digitaslbi google play dev account
+ - Create digitaslbi appstore dev account
+ - Create digitaslbi Azure account
+ - Create a confluence space for the app

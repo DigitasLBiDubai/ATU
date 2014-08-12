@@ -1,0 +1,225 @@
+﻿* {
+    -webkit-user-select: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font: 14px "Helvetica Neue", sans-serif;
+    background-color: #EAEAEA;
+}
+
+a {
+    -webkit-touch-callout: none;
+}
+
+.centerlogo {
+    display: none;
+    position: absolute;
+    left: 45%;
+    height: 52px;
+    width: 50px;
+    background-image: url('../img/headerlogo-4.png');
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 44px;
+    background: #FE2E2E;
+    color: #FFFFFF;
+    border-bottom: 1px solid #0E5895;
+}
+
+header h1 {
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0px;
+}
+
+header img {
+    text-align: center;
+    margin: 0px;
+}
+
+header .btn-left {
+    padding: 0px 12px 0px 12px;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    /*line-height: 28px;*/
+    line-height: 32px;
+    color: #fff;
+    background-color: #DF3A01;
+    border: 1px solid #B40404;
+    border-radius: 2px;
+}
+
+header .btn-right {
+    padding: 0px 12px 0px 12px;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    /*line-height: 28px;*/
+    line-height: 32px;
+    color: #fff;
+    background-color: #DF3A01;
+    border: 1px solid #B40404;
+    border-radius: 2px;
+}
+
+header a:active {
+    color: #fff;
+    background-color: #B40404;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 44px;
+    background: #FE2E2E;
+    color: #FFFFFF;
+    border-top: 1px solid #0E5895;
+}
+
+footer .btn {
+    padding: 0px 12px 0px 12px;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    /*line-height: 28px;*/
+    line-height: 32px;
+    color: #fff;
+    background-color: #DF3A01;
+    border: 1px solid #B40404;
+    border-radius: 2px;
+}
+
+footer .selected {
+    background-color: #B40404;
+}
+
+.centered {
+    text-align: center;
+}
+
+.page .body {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    -webkit-transition-property: top, bottom;
+    transition-property: top, bottom;
+    -webkit-transition-duration: .2s, .2s;
+    transition-duration: .2s, .2s;
+    -webkit-transition-timing-function: linear, linear;
+    transition-timing-function: linear, linear;
+    -webkit-overflow-scrolling: touch;
+}
+
+.login-form .btn {
+    width:50%;
+    height:100%;
+    padding: 12px 14px 12px 14px;
+    margin-top: 14px;
+    line-height: 32px;
+    color: #fff;
+    background-color: #DF3A01;
+    border: 1px solid #B40404;
+    border-radius: 2px;
+}
+
+.login-form a:active {
+    color: #fff;
+    background-color: #B40404;
+}
+
+#footer-options {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer-options li {
+    display: inline;
+}
+
+.footer-options-div {
+    float: left;
+    width:20%;
+    height:100%;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: #DF3A01;
+    border-top: 1px solid #B40404;
+    border-bottom: 1px solid #B40404;
+}
+
+.listbtn {
+    color: #fff;
+    background-color: #DF3A01;
+    border: 1px solid #B40404;
+    border-radius: 2px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list li {
+    position: relative;
+    padding: 20px 10px;
+    border-bottom: 1px solid #BCBCBC;
+}
+
+/* Increase list item tap area */
+.list li > a {
+    position: relative;
+    display: block;
+    padding: inherit;
+    margin: -20px -10px;
+    color: inherit;
+}
+
+.list li > a:active {
+    background-color: #D7D7D7;
+}
+
+.login-form {
+    margin-top: 20px;
+    text-align:center;
+}
+
+.form-input {
+    margin-top: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.robot {
+    padding: 12px;
+}
+
+.robot>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.robot > p {
+    clear: both;
+}
