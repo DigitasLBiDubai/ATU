@@ -1,0 +1,7 @@
+C:\Work\ATU\ATU.Domain.Model\bin\Release\ATU.Domain.Model.dll
+C:\Work\ATU\ATU.Domain.Model\bin\Release\ATU.Domain.Model.pdb
+C:\Work\ATU\ATU.Domain.Model\bin\Release\EntityFramework.dll
+C:\Work\ATU\ATU.Domain.Model\bin\Release\EntityFramework.xml
+C:\Work\ATU\ATU.Domain.Model\obj\Release\ATU.Domain.Model.dll
+C:\Work\ATU\ATU.Domain.Model\obj\Release\ATU.Domain.Model.pdb
+C:\Work\ATU\ATU.Domain.Model\obj\Release\ATU.Domain.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Data.Repository.dll.config
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Data.Repository.dll
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Data.Repository.pdb
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Data.dll
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\EntityFramework.dll
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Model.dll
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Data.pdb
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\EntityFramework.xml
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Work\ATU\ATU.Domain.Data.Repository\bin\Release\ATU.Domain.Model.pdb
+C:\Work\ATU\ATU.Domain.Data.Repository\obj\Release\ATU.Domain.Data.Repository.csprojResolveAssemblyReference.cache
+C:\Work\ATU\ATU.Domain.Data.Repository\obj\Release\ATU.Domain.Data.Repository.dll
+C:\Work\ATU\ATU.Domain.Data.Repository\obj\Release\ATU.Domain.Data.Repository.pdb
