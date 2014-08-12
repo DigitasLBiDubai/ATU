@@ -12,3 +12,17 @@ C:\Work\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Model.pdb
 C:\Work\ATU\ATU.Domain.Data.Repository\obj\Debug\ATU.Domain.Data.Repository.csprojResolveAssemblyReference.cache
 C:\Work\ATU\ATU.Domain.Data.Repository\obj\Debug\ATU.Domain.Data.Repository.dll
 C:\Work\ATU\ATU.Domain.Data.Repository\obj\Debug\ATU.Domain.Data.Repository.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Data.Repository.dll.config
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Data.Repository.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Data.Repository.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Data.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\EntityFramework.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Model.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Data.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\EntityFramework.xml
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\bin\Debug\ATU.Domain.Model.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\obj\Debug\ATU.Domain.Data.Repository.csprojResolveAssemblyReference.cache
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\obj\Debug\ATU.Domain.Data.Repository.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Domain.Data.Repository\obj\Debug\ATU.Domain.Data.Repository.pdb

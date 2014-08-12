@@ -10,3 +10,15 @@ C:\Work\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.xml
 C:\Work\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.csprojResolveAssemblyReference.cache
 C:\Work\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.dll
 C:\Work\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.Net4.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\ATU.Domain.Model.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.Model.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\ATU.Domain.Model.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.Model.pdb
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.xml
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.csprojResolveAssemblyReference.cache
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.dll
+C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.pdb

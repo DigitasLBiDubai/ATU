@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="F0CD75DD-9E97-471E-9085-8A54505F5F99" ModuleId="ATU.Web.Interface" />
+  <Module PersistentId="00CF5C1B-A275-4DAC-865B-4CA4ACACDE28" ModuleId="ATU.Web.Domain" />
+  <Module PersistentId="3F01BB1E-696C-4BA6-A5B8-56C9EA8A05A6" ModuleId="ATU.Web.Domain.Model" />
+  <Module PersistentId="609D6A1D-A23E-4ACC-ACA3-AB12E852B2E7" ModuleId="ATU.Domain" />
+  <Module PersistentId="05081C83-CD1D-4772-B0E9-BE3134F6B351" ModuleId="ATU.Domain.Model" />
+</Modules>

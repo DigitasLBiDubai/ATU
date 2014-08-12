@@ -6,14 +6,7 @@ namespace ATU.Web.Interface.Controllers
     {
         public ActionResult Index()
         {
-            if(User.Identity.IsAuthenticated)
-            {
-                return RedirectToAction("Index", "Question");
-            }
-            else
-            {
-                return RedirectToAction("Login", "Account");
-            }
+            return User.Identity.IsAuthenticated ? RedirectToAction("Index", "Question") : RedirectToAction("Login", "Account");
         }
     }
 }
