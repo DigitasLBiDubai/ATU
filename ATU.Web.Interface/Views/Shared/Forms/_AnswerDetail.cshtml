@@ -1,0 +1,18 @@
+﻿@model ATU.Web.Domain.Model.Answer.AnswerFields
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+   
+    <div class="input-group">
+        @Html.LabelFor(m => m.Text)
+        @Html.TextAreaFor(m => m.Text, new { @class = "form-control" })
+    </div>
+
+    @Html.HiddenFor(m => m.QuestionId)
+
+    <div class="form-actions">
+        <button type="submit" class="btn btn-blue">Submit</button>
+    </div>
+}

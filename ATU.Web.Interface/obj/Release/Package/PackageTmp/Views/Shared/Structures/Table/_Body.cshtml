@@ -1,0 +1,10 @@
+﻿@model List<ATU.Web.Domain.Model.Row>
+
+    <tbody>
+        
+    @foreach(var row in Model)
+    {
+        @Html.Partial("Structures/Table/_Row", row)
+    }
+
+    </tbody>

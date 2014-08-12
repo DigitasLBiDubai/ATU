@@ -1,0 +1,9 @@
+﻿@model ATU.Web.Domain.Model.LeftNavSection
+
+    @foreach (var item in Model.Links)
+    {
+        <li class="@item.CssClass">
+            <span class="glow"></span>
+            @Html.Partial("Listings/Items/_LeftNavSectionLink", item)
+        </li>
+    }

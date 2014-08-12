@@ -1,0 +1,16 @@
+﻿@model ATU.Web.Domain.Model.ViewBase
+
+<div class="sidebar-background">
+  <div class="primary-sidebar-background"></div>
+</div>
+
+<div class="primary-sidebar">
+    <!-- Main nav -->
+    <ul class="nav navbar-collapse collapse navbar-collapse-primary">
+        @foreach (var item in Model.LeftNav.LeftNavSections)
+        {
+            @Html.Partial("Listings/_LeftNavSections", item)
+        }
+    </ul>
+
+</div>

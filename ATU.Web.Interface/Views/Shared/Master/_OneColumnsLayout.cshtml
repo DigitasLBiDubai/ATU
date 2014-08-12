@@ -1,0 +1,20 @@
+﻿@model ATU.Web.Domain.Model.ViewBase
+
+<!doctype html>
+<html>
+
+@Html.Partial("~/Views/Shared/Structures/_Head.cshtml")
+@RenderSection("Scripts", false)
+
+<body>
+
+    <div class="container">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="padded">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

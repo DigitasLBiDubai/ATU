@@ -1,0 +1,23 @@
+﻿@using System.Web.Optimization
+@model ATU.Web.Domain.Model.RegisterModel
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/Master/_OneColumnsLayout.cshtml";
+}
+
+    <div class="login box" style="margin-top: 80px;">
+
+        <div class="box-header">
+            <span class="title">@ViewBag.Title</span>
+        </div>
+
+        <div class="box-content padded">
+            @Html.Partial("~/Views/Shared/Forms/_Register.cshtml")
+        </div>
+        <p>Have an account? <strong>@Html.ActionLink("Sign-In","Login", "Account")</strong></p>
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

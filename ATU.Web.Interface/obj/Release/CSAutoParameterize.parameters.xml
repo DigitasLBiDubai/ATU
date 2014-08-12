@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ATU.Data-Web.config Connection String" description="ATU.Data Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:zvp4h1odi7.database.windows.net,1433;Database=atuAiBU0lOQvLSa3;User ID=adminatuAiBU0lOQvLSa3@zvp4h1odi7;Password=dminatuAiBU0lOQvLSa3!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Work\\ATU\\ATU\.Web\.Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ATU.Data']/@connectionString" />
+  </parameter>
+</parameters>

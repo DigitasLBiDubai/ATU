@@ -1,0 +1,20 @@
+﻿@model ATU.Web.Domain.Model.Table
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box">
+            <div class="box-header"><span class="title">@Model.Title</span></div>
+            <div class="box-content">
+                <div id="dataTables">
+                    <table cellpadding="0" cellspacing="0" border="0" class="dTable responsive">
+                        
+                        @Html.Partial("Structures/Table/_Head", Model.TableHeaders)
+
+                        @Html.Partial("Structures/Table/_Body", Model.Rows)
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

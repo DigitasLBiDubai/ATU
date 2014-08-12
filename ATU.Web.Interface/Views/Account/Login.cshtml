@@ -1,0 +1,19 @@
+﻿@model ATU.Web.Domain.Model.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+    Layout = "~/Views/Shared/Master/_OneColumnsLayout.cshtml";
+}
+
+
+    <div class="login box" style="margin-top: 80px;">
+
+        <div class="box-header">
+            <span class="title">@ViewBag.Title</span>
+        </div>
+
+        <div class="box-content padded">
+            @Html.Partial("~/Views/Shared/Forms/_Login.cshtml")            
+        </div>
+        <p>Don't have an account? <strong>@Html.ActionLink("Sign-Up","Register", "Account")</strong></p>
+    </div>

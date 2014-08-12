@@ -1,0 +1,41 @@
+﻿@model ATU.Web.Domain.Model.RegisterModel
+
+@using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "separate-sections" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-user"></i>
+        </span>
+        @Html.TextBoxFor(m => m.FirstName, new { @placeholder = "first name"})
+    </div>
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-user"></i>
+        </span>
+        @Html.TextBoxFor(m => m.LastName, new { @placeholder = "last name"})
+    </div>
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-envelope"></i>
+        </span>
+        @Html.TextBoxFor(m => m.Email, new { @placeholder = "email"})
+    </div>
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-key"></i>
+        </span>
+        @Html.PasswordFor(m => m.Password, new { @placeholder = "password"})
+    </div>
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-key"></i>
+        </span>
+        @Html.PasswordFor(m => m.ConfirmPassword, new { @placeholder = "confirm password"})
+    </div>
+    <div>
+        <button type="submit" class="btn btn-blue btn-block" >Register <i class="icon-signin"></i></button>
+    </div>
+}

@@ -1,0 +1,12 @@
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.Net4.dll
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.dll
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.pdb
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\ATU.Domain.Model.dll
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.Model.dll
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.dll
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\ATU.Domain.Model.pdb
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\ATU.Web.Domain.Model.pdb
+C:\Work\ATU\ATU.Web.Domain\bin\Debug\AutoMapper.xml
+C:\Work\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.csprojResolveAssemblyReference.cache
+C:\Work\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.dll
+C:\Work\ATU\ATU.Web.Domain\obj\Debug\ATU.Web.Domain.pdb

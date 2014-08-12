@@ -1,0 +1,6 @@
+﻿@model List<ATU.Web.Domain.Model.BreadcrumbItem>
+
+@foreach (var breadcrumb in Model)
+{
+    @Html.Partial("~/Views/Shared/Listings/Items/_BreadcrumbItem.cshtml", breadcrumb)
+}

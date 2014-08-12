@@ -1,0 +1,5 @@
+C:\Work\ATU\ATU.Web.Domain.Model\bin\Debug\ATU.Web.Domain.Model.dll
+C:\Work\ATU\ATU.Web.Domain.Model\bin\Debug\ATU.Web.Domain.Model.pdb
+C:\Work\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.dll
+C:\Work\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.pdb
+C:\Work\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.csprojResolveAssemblyReference.cache

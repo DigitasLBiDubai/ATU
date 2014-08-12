@@ -1,0 +1,11 @@
+﻿@model ATU.Web.Domain.Model.Question.QuestionIndex
+
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/Master/_TwoColumnsLayout.cshtml";
+}
+
+@if (null != Model.QuestionTable)
+{
+    @Html.Partial("Structures/Table/_Table", Model.QuestionTable)
+}

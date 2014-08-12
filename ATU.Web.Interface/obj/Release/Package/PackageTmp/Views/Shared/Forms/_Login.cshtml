@@ -1,0 +1,24 @@
+﻿@model ATU.Web.Domain.Model.LoginModel
+
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "separate-sections" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-envelope"></i>
+        </span>
+        @Html.TextBoxFor(m => m.UserName, new { @placeholder = "username"})
+    </div>
+
+    <div class="input-group addon-left">
+        <span class="input-group-addon" href="#">
+            <i class="icon-key"></i>
+        </span>
+        @Html.PasswordFor(m => m.Password, new { @placeholder = "password"})
+    </div>
+    <div>
+        <button type="submit" class="btn btn-blue btn-block" >Login <i class="icon-signin"></i></button>
+    </div>
+}

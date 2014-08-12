@@ -1,0 +1,12 @@
+﻿@model ATU.Web.Domain.Model.Question.QuestionDetail
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Master/_TwoColumnsLayout.cshtml";
+}
+
+<h3>Question from user ??</h3>
+
+<p>@Model.QuestionFields.Text</p>
+
+@Html.ActionLink("Answer Question", "Create", "Answer", new { id = Url.RequestContext.RouteData.Values["id"] }, new { @class = "btn btn-blue" })

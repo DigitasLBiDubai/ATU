@@ -1,0 +1,34 @@
+﻿@model ATU.Web.Domain.Model.ViewBase
+
+<!doctype html>
+<html>
+
+    @Html.Partial("~/Views/Shared/Structures/_Head.cshtml")
+    @RenderSection("Scripts", false)
+
+    <body>
+        @Html.Partial("~/Views/Shared/Navigation/_TopNav.cshtml")
+        @Html.Partial("~/Views/Shared/Navigation/_LeftNav.cshtml", Model)
+
+        <div class="main-content">
+
+            <div class="container">
+                <div class="row">
+                    @Html.Partial("~/Views/Shared/Structures/_InnerPageSummaryBar.cshtml", Model)
+                </div>
+            </div>
+
+            <div class="container padded">
+                <div class="row">
+                    <!-- Breadcrumb line -->
+                    @Html.Partial("~/Views/Shared/Navigation/_Breadcrumb.cshtml", Model.Breadcrumb)
+                </div>
+            </div>
+
+            <div class="container padded">
+                @RenderBody()
+            </div>
+        
+        </div>
+    </body>
+</html>

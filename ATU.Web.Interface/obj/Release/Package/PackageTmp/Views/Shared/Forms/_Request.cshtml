@@ -1,0 +1,44 @@
+﻿@model ATU.Web.Domain.Model.Request.RequestFields
+
+<div class="input-group addon-left">
+    <span class="input-group-addon" href="#">
+        <i class="icon-user"></i>
+    </span>
+    @Html.TextBoxFor(m => m.FirstName, new { @placeholder = "first name" })
+</div>
+
+<div class="input-group addon-left">
+    <span class="input-group-addon" href="#">
+        <i class="icon-user"></i>
+    </span>
+    @Html.TextBoxFor(m => m.LastName, new { @placeholder = "last name" })
+</div>
+
+<div class="input-group addon-left">
+    @Html.TextAreaFor(m => m.Text, new { @placeholder = "your request here" })
+</div>
+
+<div class="input-group addon-left">
+    <span class="input-group-addon" href="#">
+        <i class="icon-phone"></i>
+    </span>
+    @Html.TextBoxFor(m => m.PhoneNumber, new { @placeholder = "phone number" })
+</div>
+
+<div class="input-group addon-left">
+    <span class="input-group-addon" href="#">
+        <i class="icon-info-sign"></i>
+    </span>
+    @Html.TextBoxFor(m => m.Url, new { @placeholder = "website url" })
+</div>
+
+<div class="input-group addon-left">
+    <span class="input-group-addon" href="#">
+        <i class="icon-envelope"></i>
+    </span>
+    @Html.TextBoxFor(m => m.Email, new { @placeholder = "email" })
+</div>
+
+<div>
+    <button type="submit" class="btn btn-blue btn-block">Submit Request <i class="icon-signin"></i></button>
+</div>

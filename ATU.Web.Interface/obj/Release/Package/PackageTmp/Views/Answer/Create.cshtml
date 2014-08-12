@@ -1,0 +1,22 @@
+﻿@using System.Web.Optimization
+@model ATU.Web.Domain.Model.Answer.CreateAnswer
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/Master/_TwoColumnsLayout.cshtml";
+}
+
+<div class="box">
+    <div class="box-header">
+        <span class="title">Create Answer</span>
+    </div>
+    <div class="box-content padded">
+        
+        @Html.Partial("~/Views/Shared/Forms/_AnswerDetail.cshtml", Model.AnswerFields)
+       
+    </div>
+</div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

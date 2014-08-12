@@ -1,0 +1,26 @@
+﻿@model ATU.Web.Domain.Model.Request.RequestIndex
+
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/Master/_TwoColumnsLayout.cshtml";
+}
+
+@if (null != Model.ContactRequestTable)
+{
+    @Html.Partial("Structures/Table/_Table", Model.ContactRequestTable)
+}
+
+@if (null != Model.NewRequestTable)
+{
+    @Html.Partial("Structures/Table/_Table", Model.NewRequestTable)
+}
+
+@if (null != Model.AcceptedRequestTable)
+{
+    @Html.Partial("Structures/Table/_Table", Model.AcceptedRequestTable)
+}
+
+@if (null != Model.RejectedRequestTable)
+{
+    @Html.Partial("Structures/Table/_Table", Model.RejectedRequestTable)
+}
