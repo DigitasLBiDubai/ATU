@@ -1,13 +1,25 @@
 Azure DB:
 
- - Name : atuAiBU0lOQvLSa3
+ - Name: atuAiBU0lOQvLSa3
  - UN: adminatuAiBU0lOQvLSa3
  - Pass: dminatuAiBU0lOQvLSa3!
+
+Git:
+
+ - https://github.com/DigitasLBiDubai/ATU 
 
 Todo:
 
  - Question detail page
- - 
+ - Input type text bug
+ - Plug-in notification emails
+ - Implement answer workflow with answer approval
+ - Answer push notification
+ - Username creation via app
+ - Login api
+ - User roles management on the back-end
+ - Insert questions into db
+ - Produce and use icon and splash screen images
 
 Todo to go live:
 
