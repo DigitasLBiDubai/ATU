@@ -9,6 +9,7 @@
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
     <name>Ask The Unicorn</name>
+    <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />

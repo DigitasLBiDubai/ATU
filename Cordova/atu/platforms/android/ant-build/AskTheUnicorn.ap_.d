@@ -44,6 +44,12 @@ C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\css\
 C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\font\Lato.woff \
 C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\font\Muli.woff \
 C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\android-icon.png \
+C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\glyph_40_analytics.png \
+C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\glyph_40_managed-services.png \
+C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\glyph_40_ppc.png \
+C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\glyph_40_seo.png \
+C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\glyph_40_social-media.png \
+C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\glyph_40_technology.png \
 C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\headerlogo-2.png \
 C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\headerlogo-3.png \
 C:\Users\ceva\Documents\GitHub\ATU\Cordova\atu\platforms\android\assets\www\img\headerlogo-4.png \

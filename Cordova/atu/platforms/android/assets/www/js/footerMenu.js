@@ -1,14 +1,13 @@
-
 var footerMenu = {
 
     getFooterMenu: function (selectedItemName) {
         var menu = '';
 
         if (selectedItemName === core.questionPageHash) {
-            menu = menu + '<a href="#question"><div class="footer-options-div selected">New Q</div></a>';
+            menu = menu + '<a href="#question"><div class="footer-options-div selected">Ask</div></a>';
         }
         else {
-            menu = menu + '<a href="#question"><div class="footer-options-div">New Q</div></a>';
+            menu = menu + '<a href="#question"><div class="footer-options-div">Ask</div></a>';
         }
 
         if (selectedItemName === core.faqPageHash) {
@@ -24,7 +23,7 @@ var footerMenu = {
         else {
             menu = menu + '<a href="#myqs"><div class="footer-options-div">My Qs</div></a>';
         }
-        /*
+        /* 
         if (selectedItemName === core.usernameHash) {
             menu = menu + '<a href="#username"><div class="footer-options-div selected">Username</div></a>';
         }

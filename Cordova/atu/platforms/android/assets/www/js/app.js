@@ -79,7 +79,7 @@ var app = {
             }
         }
 
-        page = app.merge(registerPage.template, { name: "Register", description: "" });
+        page = app.merge(registerPage.template, { name: "Sign up for Unicorn wisedom.", description: "" });
 		app.updateView(page);
         app.bindRegisterPageEvents();
     },
@@ -126,21 +126,29 @@ var app = {
         for (var i = 0; i < data.length; i++) { 
             var item = data[i];
             var cat = '';
-            if (item.Category.Id != prev_Cat){
+            if (item.Category != null && item.Category.Id != prev_Cat){
                 cat = item.Category.Text;
             }
             html = html + app.questionListItemMarkup(item, cat); 
-            prev_Cat = item.Category.Id;
+
+            if(item.Category != null){
+                prev_Cat = item.Category.Id;
+            }
         }
         return html + '</ul>';
     },
 
     templateQuestion: function (data) {
-        var html = '<p class="question">';       
-        html = html + "<ul>"
-        for(var i = 0; i < data.Answers.length; i++){
-            html = html + "<li>" + data.Answers[i].Text + "</li>"; 
-        }        
+        var html = '<p class="question">';   
+
+        if(data.Answers.length > 0){    
+            html = html + "<ul>"
+            for(var i = 0; i < data.Answers.length; i++){
+                html = html + "<li>" + data.Answers[i].Text + "</li>"; 
+            }        
+        }else{
+            html = "<p>The Unicorn is currently answering your question, this should be done within 24 hours.</p>"
+        }
         return html + '</p>';
     },
 
