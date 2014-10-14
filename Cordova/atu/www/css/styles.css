@@ -1,16 +1,61 @@
-﻿* {
+﻿/* commented to avoid text input bug
+* {
     -webkit-user-select: none;
+}
+*/
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../font/Muli.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../font/Lato.woff') format('woff');
 }
 
 body {
     padding: 0px;
     margin: 0px;
-    font: 14px "Helvetica Neue", sans-serif;
-    background-color: #EAEAEA;
+    font: 14px "Lato", sans-serif;
+    background-color: #fff;    
+}
+
+
+body h1{
+        padding-left: 8px;
+}
+
+textarea {
+    font: 14px "Lato", sans-serif;
+}
+::-webkit-input-placeholder {
+    font: 14px "Lato", sans-serif;
+}
+:-moz-placeholder { /* older Firefox*/
+    font: 14px "Lato", sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font: 14px "Lato", sans-serif;
+}
+:-ms-input-placeholder {
+    font: 14px "Lato", sans-serif;
 }
 
 a {
     -webkit-touch-callout: none;
+}
+
+p {
+    padding-left: 8px;
+}
+
+.category{
+    color: #ce0007;
 }
 
 .centerlogo {
@@ -28,7 +73,7 @@ header {
     left: 0px;
     right: 0px;
     height: 44px;
-    background: #FE2E2E;
+    background: #CE0007;
     color: #FFFFFF;
     border-bottom: 1px solid #0E5895;
 }
@@ -38,6 +83,7 @@ header h1 {
     line-height: 44px;
     text-align: center;
     margin: 0px;
+    font-weight: 300;
 }
 
 header img {
@@ -53,8 +99,8 @@ header .btn-left {
     /*line-height: 28px;*/
     line-height: 32px;
     color: #fff;
-    background-color: #DF3A01;
-    border: 1px solid #B40404;
+    background-color: #22333f;
+    border: 1px solid #0d1f2b;
     border-radius: 2px;
 }
 
@@ -66,8 +112,8 @@ header .btn-right {
     /*line-height: 28px;*/
     line-height: 32px;
     color: #fff;
-    background-color: #DF3A01;
-    border: 1px solid #B40404;
+    background-color: #22333f;
+    border: 1px solid #0d1f2b;
     border-radius: 2px;
 }
 
@@ -82,7 +128,7 @@ footer {
     left: 0px;
     right: 0px;
     height: 44px;
-    background: #FE2E2E;
+    background: #354652;
     color: #FFFFFF;
     border-top: 1px solid #0E5895;
 }
@@ -96,12 +142,12 @@ footer .btn {
     line-height: 32px;
     color: #fff;
     background-color: #DF3A01;
-    border: 1px solid #B40404;
+    border: 1px solid #354652;/*#B40404;*/
     border-radius: 2px;
 }
 
 footer .selected {
-    background-color: #B40404;
+    background-color: #0D1F2B;
 }
 
 .centered {
@@ -131,8 +177,8 @@ footer .selected {
     margin-top: 14px;
     line-height: 32px;
     color: #fff;
-    background-color: #DF3A01;
-    border: 1px solid #B40404;
+    background-color: #CE0007;  
+    border: 1px solid #0d1f2b;    
     border-radius: 2px;
 }
 
@@ -153,14 +199,16 @@ footer .selected {
 
 .footer-options-div {
     float: left;
-    width:20%;
+    width:33.33%;
     height:100%;
     text-align: center;
     line-height: 32px;
     color: #fff;
-    background-color: #DF3A01;
-    border-top: 1px solid #B40404;
-    border-bottom: 1px solid #B40404;
+    background-color:#22333F;
+    border-top: 1px solid #40515e;
+    border-bottom: 1px solid #40515e;
+    border-left: 1px solid #40515e;
+    margin-left: -1px;
 }
 
 .listbtn {

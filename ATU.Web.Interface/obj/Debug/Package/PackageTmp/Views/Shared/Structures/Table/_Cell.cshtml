@@ -1,0 +1,26 @@
+﻿@using ATU.Web.Domain.Model
+
+@model ATU.Web.Domain.Model.Cell
+
+@if(Model.Centered)
+{
+    if(Model.Value is Link)
+    {
+        <td class="center"><a href="@(((Link)Model.Value).Url)">@(((Link)Model.Value).Name)</a></td>
+    }
+    else
+    {
+        <td class="center">@Model.Value</td>        
+    }
+}
+else
+{
+    if (Model.Value is Link)
+    {
+        <td><a href="@(((Link)Model.Value).Url)">@(((Link)Model.Value).Name)</a></td>
+    }
+    else
+    {
+        <td>@Model.Value</td>   
+    }
+}

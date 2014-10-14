@@ -21,5 +21,11 @@ namespace ATU.Domain.Model
 
         [Required]
         public DateTime DateCreated { get; set; }
+
+        public virtual List<Tag> Tags { get; set; }
+
+        public virtual Category Category { get; set; }
+
+        public virtual Client Poster { get; set; }
     }
 }

@@ -24,7 +24,7 @@ var footerMenu = {
         else {
             menu = menu + '<a href="#myqs"><div class="footer-options-div">My Qs</div></a>';
         }
-
+        /*
         if (selectedItemName === core.usernameHash) {
             menu = menu + '<a href="#username"><div class="footer-options-div selected">Username</div></a>';
         }
@@ -38,7 +38,7 @@ var footerMenu = {
         else {
             menu = menu + '<a href="#info"><div class="footer-options-div">Info</div></a>';
         }
-
+        */
         return menu;
     }
 }

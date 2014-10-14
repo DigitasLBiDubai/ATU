@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using ATU.Domain.Model;
 
 namespace ATU.Domain.Abstract
@@ -7,7 +8,7 @@ namespace ATU.Domain.Abstract
     {
         Question Get(int id);
         IQueryable<Question> GetAll();
-        Question Create(Question question);
+        Question Create(Question question, Guid authToken);
         void Update(Question question);
     }
 }

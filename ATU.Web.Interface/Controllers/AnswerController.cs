@@ -24,8 +24,16 @@ namespace ATU.Web.Interface.Controllers
 
         public ActionResult Create()
         {
-            var createAnswer = _viewFactory.BuildCreateAnswerViewModel(Roles.GetRolesForUser(), "Create Answer");
+            var createAnswer = _viewFactory.BuildCreateAnswerViewModel(CurrentUserName, Roles.GetRolesForUser(), "Create Answer");
             createAnswer.AnswerFields.QuestionId = Convert.ToInt32(Url.RequestContext.RouteData.Values["id"]);
+            if (Url.RequestContext.HttpContext.Request.QueryString["answerId"] != null)
+            {
+                int answerId = Convert.ToInt32(Url.RequestContext.HttpContext.Request.QueryString["answerId"]);
+                var answer = _answerService.Get(answerId);
+
+                createAnswer.AnswerFields.Id = answerId;
+                createAnswer.AnswerFields.Text = answer.Text;
+            }
 
             return View(createAnswer);
         }
@@ -39,18 +47,28 @@ namespace ATU.Web.Interface.Controllers
             {
                 var answer = Mapper.Map<AnswerFields, Answer>(model);
                 answer.DateCreated = DateTime.UtcNow;
-                var question = _questionService.Get(Convert.ToInt32(model.QuestionId));
 
-                if (null == question.Answers) question.Answers = new List<Answer>();
+                if (model.Id.HasValue)
+                {
+                    var existingAnswer = _answerService.Get(model.Id.Value);
+                    existingAnswer.Text = model.Text;
+                    _answerService.Update(existingAnswer);
+                }
+                else
+                {
+                    var question = _questionService.Get(Convert.ToInt32(model.QuestionId));
 
-                question.Answers.Add(answer);
+                    if (null == question.Answers) question.Answers = new List<Answer>();
 
-                _questionService.Update(question);
+                    question.Answers.Add(answer);
+
+                    _questionService.Update(question);
+                }
 
                 return RedirectToAction("Detail", "Question", new {id=model.QuestionId});
             }
 
-            var createAnswer = _viewFactory.BuildCreateAnswerViewModel(Roles.GetRolesForUser(), "Create Answer", model);
+            var createAnswer = _viewFactory.BuildCreateAnswerViewModel(CurrentUserName, Roles.GetRolesForUser(), "Create Answer", model);
 
             return View(createAnswer);
         }

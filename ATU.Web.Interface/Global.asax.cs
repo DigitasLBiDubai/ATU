@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using System.Net.Http.Formatting;
+using Autofac;
 using ATU.Domain.Abstract;
 using ATU.Web.Domain.Concrete;
 using System.Web.Http;
@@ -16,6 +17,9 @@ namespace ATU.Web.Interface
 
         protected void Application_Start()
         {
+            GlobalConfiguration.Configuration.Formatters.Clear();
+            GlobalConfiguration.Configuration.Formatters.Add(new JsonMediaTypeFormatter());
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);

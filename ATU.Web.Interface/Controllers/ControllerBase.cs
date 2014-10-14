@@ -11,5 +11,10 @@ namespace ATU.Web.Interface.Controllers
         {
             _viewFactory = viewFactory;
         }
+
+        public string CurrentUserName {
+            get {return User != null ? User.Identity.Name : string.Empty; }
+        }
+
     }
 }

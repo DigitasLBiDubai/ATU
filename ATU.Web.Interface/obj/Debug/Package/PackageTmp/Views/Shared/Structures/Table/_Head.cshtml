@@ -1,0 +1,12 @@
+﻿@model List<string>
+
+    <thead>
+        <tr>
+            @foreach (var title in Model)
+            {
+                <th>
+                    <div>@title</div>
+                </th>
+            }
+        </tr>
+    </thead>

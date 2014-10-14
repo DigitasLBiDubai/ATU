@@ -8,13 +8,13 @@ namespace ATU.Web.Domain.Abstract
 {
     public interface IViewFactory
     {
-        RequestIndex BuildRequestIndexViewModel(string[] userRoles, string title, IEnumerable<Request> requests, List<int> itemsPerPage);
-        RequestDetail BuildRequestDetailViewModel(string[] userRoles, string title, RequestFields requestFields);
+        RequestIndex BuildRequestIndexViewModel(string username, string[] userRoles, string title, IEnumerable<Request> requests, List<int> itemsPerPage);
+        RequestDetail BuildRequestDetailViewModel(string username, string[] userRoles, string title, RequestFields requestFields);
 
-        QuestionIndex BuildQuestionIndexViewModel(string[] userRoles, string title, IEnumerable<Question> questions, List<int> itemsPerPage);
-        QuestionDetail BuildQuestionDetailViewModel(string[] userRoles, string title, QuestionFields questionFields);
+        QuestionIndex BuildQuestionIndexViewModel(string username, string[] userRoles, string title, IEnumerable<Question> questions, List<int> itemsPerPage);
+        QuestionDetail BuildQuestionDetailViewModel(string username, string[] userRoles, string title, QuestionFields questionFields, List<AnswerFields> answerFieldsList, string poster);
 
-        CreateAnswer BuildCreateAnswerViewModel(string[] userRoles, string title);
-        CreateAnswer BuildCreateAnswerViewModel(string[] userRoles, string title, AnswerFields answerFields);
+        CreateAnswer BuildCreateAnswerViewModel(string username, string[] userRoles, string title);
+        CreateAnswer BuildCreateAnswerViewModel(string username, string[] userRoles, string title, AnswerFields answerFields);
     }
 }

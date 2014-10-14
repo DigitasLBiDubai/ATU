@@ -151,8 +151,14 @@
   <ItemGroup>
     <Compile Include="Api\AnswerController.cs" />
     <Compile Include="Api\ApiControllerBase.cs" />
+    <Compile Include="Api\FaqController.cs" />
+    <Compile Include="Api\LoginController.cs" />
+    <Compile Include="Api\MyQuestionController.cs" />
+    <Compile Include="Api\RegistrationController.cs" />
+    <Compile Include="Api\CategoryController.cs" />
     <Compile Include="Api\QuestionController.cs" />
     <Compile Include="Api\RequestController.cs" />
+    <Compile Include="Api\TagController.cs" />
     <Compile Include="App_Start\IocConfig.cs" />
     <Compile Include="App_Start\MembershipConfig.cs" />
     <Compile Include="App_Start\MembershipInitializer.cs" />

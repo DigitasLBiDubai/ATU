@@ -1,0 +1,23 @@
+﻿@model ATU.Web.Domain.Model.Question.QuestionDetail
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Master/_TwoColumnsLayout.cshtml";
+}
+
+<p><strong>Question (by @Model.Poster):</strong><br />@Model.QuestionFields.Text</p>
+<p><strong>Answer:</strong><br/>
+    @foreach (var answer in Model.Answers)
+    {
+        @answer.Text<br/>
+    }
+    
+</p>
+@if (Model.Answers.Any())
+{
+    @Html.ActionLink("Edit Answer", "Create", "Answer", new { id = Url.RequestContext.RouteData.Values["id"], answerId = Model.Answers[0].Id, foo = "bar" }, new { @class = "btn btn-blue" })
+}
+else
+{
+    @Html.ActionLink("Answer Question", "Create", "Answer", new { id = Url.RequestContext.RouteData.Values["id"] }, new { @class = "btn btn-blue" })
+}

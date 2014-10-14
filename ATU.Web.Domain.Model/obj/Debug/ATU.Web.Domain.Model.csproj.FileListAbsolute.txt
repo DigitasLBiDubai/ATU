@@ -7,3 +7,7 @@ C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain.Model\bin\Debug\ATU.Web.Dom
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain.Model\bin\Debug\ATU.Web.Domain.Model.pdb
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.dll
 C:\Users\soccolo\Documents\GitHub\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.pdb
+C:\Users\ceva\Documents\GitHub\ATU\ATU.Web.Domain.Model\bin\Debug\ATU.Web.Domain.Model.dll
+C:\Users\ceva\Documents\GitHub\ATU\ATU.Web.Domain.Model\bin\Debug\ATU.Web.Domain.Model.pdb
+C:\Users\ceva\Documents\GitHub\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.dll
+C:\Users\ceva\Documents\GitHub\ATU\ATU.Web.Domain.Model\obj\Debug\ATU.Web.Domain.Model.pdb

@@ -24,7 +24,7 @@ namespace ATU.Web.Interface.Controllers
         public ActionResult Index()
         {
             var requests = _requestService.GetRequests().ToList();
-            var viewModel = _viewFactory.BuildRequestIndexViewModel(Roles.GetRolesForUser(), "Requests", requests, new List<int>() { 10, 20, 50 });
+            var viewModel = _viewFactory.BuildRequestIndexViewModel(CurrentUserName, Roles.GetRolesForUser(), "Requests", requests, new List<int>() { 10, 20, 50 });
 
             return View(viewModel);
         }
@@ -34,7 +34,7 @@ namespace ATU.Web.Interface.Controllers
             var request = _requestService.GetRequest(id);
             var requestFields = Mapper.Map<Request, RequestFields>(request);
 
-            var viewModel = _viewFactory.BuildRequestDetailViewModel(Roles.GetRolesForUser(), "Request Detail", requestFields);
+            var viewModel = _viewFactory.BuildRequestDetailViewModel(CurrentUserName, Roles.GetRolesForUser(), "Request Detail", requestFields);
 
             return View(viewModel);
         }

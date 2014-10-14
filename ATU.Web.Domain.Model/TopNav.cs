@@ -7,5 +7,6 @@ namespace ATU.Web.Domain.Model
         public string LogOffUrl { get; set; }
         public string ProfileUrl { get; set; }
         public string SettingsUrl { get; set; }
+        public string CurrentUserName { get; set; }
     }
 }

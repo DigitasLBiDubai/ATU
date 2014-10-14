@@ -43,5 +43,10 @@ namespace ATU.Domain.Concrete
         {
             return WebSecurity.GetUserId(userName);
         }
+
+        public string GetCurrentUserName()
+        {
+            return WebSecurity.CurrentUserName;
+        }
     }
 }

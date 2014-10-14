@@ -72,6 +72,13 @@
     <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\IClientAuthenticationService.cs" />
+    <Compile Include="Abstract\IClientService.cs" />
+    <Compile Include="Abstract\ITagService.cs" />
+    <Compile Include="Concrete\CategoryService.cs" />
+    <Compile Include="Concrete\ClientAuthenticationService.cs" />
+    <Compile Include="Concrete\ClientService.cs" />
     <Compile Include="Concrete\QuestionService.cs" />
     <Compile Include="Concrete\AnswerService.cs" />
     <Compile Include="Abstract\IAnswerService.cs" />
@@ -97,6 +104,7 @@
     <Compile Include="Concrete\MembershipService.cs" />
     <Compile Include="Concrete\ModelMapper.cs" />
     <Compile Include="Concrete\RegistrationService.cs" />
+    <Compile Include="Concrete\TagService.cs" />
     <Compile Include="Concrete\UserService.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Enums.cs" />

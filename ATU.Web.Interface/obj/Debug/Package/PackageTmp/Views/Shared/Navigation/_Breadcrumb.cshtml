@@ -1,0 +1,8 @@
+﻿@model ATU.Web.Domain.Model.Breadcrumb
+
+@if(Model != null && Model.BreadcrumbItems.Any())
+{
+    <div id="breadcrumbs">
+        @Html.Partial("~/Views/Shared/Listings/_BreadcrumbItems.cshtml", Model.BreadcrumbItems)
+    </div>
+}

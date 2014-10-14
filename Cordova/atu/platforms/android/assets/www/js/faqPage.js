@@ -8,8 +8,8 @@ var faqPage = {
         '</header>' +
         '<div class="body">' +
             '<h1>{{name}}</h1>' +
-            '<div id="questions">' +
-                '<img id="loader-image" src="img/loadinfo-gray-red.gif" alt="loading" />' +
+            '<div id="questions" style="padding-bottom: 44px;">' +
+                '<img id="loader-image" src="img/unicorn-100px.gif" alt="loading" style="padding-left: 8px;"/>' +
             '</div>' +
         '</div>' +
         '<footer>' +

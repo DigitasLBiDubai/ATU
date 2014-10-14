@@ -20,7 +20,7 @@ namespace ATU.Web.Interface.Api
 
         public HttpResponseMessage Get()
         {
-            var questions = _questionService.GetAll().ToList();
+            var questions = _questionService.GetAll().OrderBy(c => c.Category.Id).ToList();
             var questionListItems = Mapper.Map<List<Question>, List<QuestionApiListItem>>(questions);
 
             var response = Request.CreateResponse(HttpStatusCode.OK, questionListItems);
@@ -32,10 +32,16 @@ namespace ATU.Web.Interface.Api
         {
             var question = _questionService.Get(id);
             var questionListItem = Mapper.Map<Question, QuestionApiListItem>(question);
-
+            
             var response = Request.CreateResponse(HttpStatusCode.OK, questionListItem);
 
             return response;
+        }
+
+        public HttpResponseMessage Search(string text, int category, List<int> tags )
+        {
+            //TODO
+            return null;
         }
 
         public HttpResponseMessage Post([FromBody]QuestionFields value)
@@ -47,7 +53,7 @@ namespace ATU.Web.Interface.Api
 
             var question = Mapper.Map<QuestionFields, Question>(value);
 
-            _questionService.Create(question);
+            _questionService.Create(question, value.authToken);
             return new HttpResponseMessage { StatusCode = HttpStatusCode.Created, ReasonPhrase = "Question Created" };
         }
     }

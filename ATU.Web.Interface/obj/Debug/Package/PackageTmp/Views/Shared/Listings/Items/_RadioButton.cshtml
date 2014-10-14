@@ -1,0 +1,3 @@
+﻿@model ATU.Web.Domain.Model.RadioButton
+
+@Html.RadioButtonFor(b=>b.Value ,Model.Checked, new{Name = Model.Id, Id = Model.Value})  @Model.Text

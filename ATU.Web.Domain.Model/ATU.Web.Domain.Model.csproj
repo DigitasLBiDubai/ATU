@@ -44,13 +44,19 @@
     <Compile Include="Answer\AnswerApiListItem.cs" />
     <Compile Include="Answer\AnswerFields.cs" />
     <Compile Include="Answer\CreateRequest.cs" />
+    <Compile Include="Authentication\AuthFields.cs" />
+    <Compile Include="Authentication\LoginFields.cs" />
+    <Compile Include="Authentication\RegistrationFields.cs" />
     <Compile Include="Breadcrumb.cs" />
     <Compile Include="BreadcrumbItem.cs" />
     <Compile Include="Cell.cs" />
+    <Compile Include="Question\CategoryApiListItem.cs" />
+    <Compile Include="Question\MyQuestionFields.cs" />
     <Compile Include="Question\QuestionApiListItem.cs" />
     <Compile Include="Question\QuestionDetail.cs" />
     <Compile Include="Question\QuestionFields.cs" />
     <Compile Include="Question\QuestionIndex.cs" />
+    <Compile Include="Question\TagApiListItem.cs" />
     <Compile Include="Request\CreateRequest.cs" />
     <Compile Include="Request\RequestDetail.cs" />
     <Compile Include="Request\RequestFields.cs" />
@@ -67,6 +73,7 @@
     <Compile Include="Row.cs" />
     <Compile Include="Table.cs" />
     <Compile Include="TopNav.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="ViewBase.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -5,14 +5,15 @@ namespace ATU.Web.Domain.Concrete
 {
     public class TopNavFactory : ITopNavFactory
     {
-        public TopNav BuildTopNav(string portalTitle)
+        public TopNav BuildTopNav(string portalTitle, string currentUserName)
         {
             return new TopNav()
             {
                 PortalTitle = portalTitle,
                 LogOffUrl = string.Empty,
                 ProfileUrl = string.Empty,
-                SettingsUrl = string.Empty
+                SettingsUrl = string.Empty,
+                CurrentUserName = currentUserName
             };
         }
     }

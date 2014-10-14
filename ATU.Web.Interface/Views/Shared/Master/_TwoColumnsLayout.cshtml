@@ -7,7 +7,7 @@
     @RenderSection("Scripts", false)
 
     <body>
-        @Html.Partial("~/Views/Shared/Navigation/_TopNav.cshtml")
+        @Html.Partial("~/Views/Shared/Navigation/_TopNav.cshtml", Model.TopNav)
         @Html.Partial("~/Views/Shared/Navigation/_LeftNav.cshtml", Model)
 
         <div class="main-content">
@@ -17,14 +17,15 @@
                     @Html.Partial("~/Views/Shared/Structures/_InnerPageSummaryBar.cshtml", Model)
                 </div>
             </div>
-
+            
+            <!--
             <div class="container padded">
                 <div class="row">
-                    <!-- Breadcrumb line -->
+                    
                     @Html.Partial("~/Views/Shared/Navigation/_Breadcrumb.cshtml", Model.Breadcrumb)
                 </div>
             </div>
-
+            -->
             <div class="container padded">
                 @RenderBody()
             </div>

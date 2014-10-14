@@ -24,8 +24,10 @@ namespace ATU.Domain.Concrete
             return Repo.GetAll<Question>();
         }
 
-        public Question Create(Question question)
+        public Question Create(Question question, Guid authToken)
         {
+            var client = Repo.GetAll<Client>().FirstOrDefault(c => c.Hash == authToken);
+            question.Poster = client;
             question.DateCreated = DateTime.UtcNow;
             return base.Create(question);
         }

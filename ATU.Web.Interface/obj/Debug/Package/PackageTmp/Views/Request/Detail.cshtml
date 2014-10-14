@@ -1,0 +1,28 @@
+﻿@model ATU.Web.Domain.Model.Request.RequestDetail
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/Master/_TwoColumnsLayout.cshtml";
+}
+
+<h3>Request from @string.Concat(@Model.RequestFields.FirstName, " ", @Model.RequestFields.LastName)</h3>
+
+<p>@Model.RequestFields.Email</p>
+<p>@Model.RequestFields.Url</p>
+<p>@Model.RequestFields.PhoneNumber</p>
+<p>@Model.RequestFields.Text</p>
+
+@if(Model.RequestFields.Status == 0)
+{
+    <p>
+        @Html.ActionLink("Accept Request", "Accept", "Request", new {id = Url.RequestContext.RouteData.Values["id"]}, new {@class = "btn btn-blue"})
+        @Html.ActionLink("Reject Request", "Reject", "Request", new {id = Url.RequestContext.RouteData.Values["id"]}, new {@class = "btn btn-red"})
+    </p>
+}@*
+
+else
+{
+    <p>
+        @Html.ActionLink("Reset to New", "ResetToNew", "Request", new {id = Url.RequestContext.RouteData.Values["id"]}, new {@class = "btn btn-blue"})
+    </p>    
+}*@

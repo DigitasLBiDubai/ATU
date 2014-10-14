@@ -19,10 +19,10 @@ namespace ATU.Web.Domain.Concrete
         public Breadcrumb BuildBreadcrumb()
         {
             var breadcrumb = new Breadcrumb();
-
+            /*
             breadcrumb.BreadcrumbItems.Add(BuildBreadcrumbItem("Home", "icon", "breadcrumb-button", "blue"));
             breadcrumb.BreadcrumbItems.Add(BuildBreadcrumbItem("Dashboard", "icon", "breadcrumb-button", string.Empty));
-
+            */
             return breadcrumb;
         }
     }

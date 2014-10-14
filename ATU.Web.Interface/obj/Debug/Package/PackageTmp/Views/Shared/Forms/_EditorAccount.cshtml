@@ -1,0 +1,9 @@
+﻿@model ATU.Web.Domain.Model.Request.RequestFields
+
+@using (Html.BeginForm("EditorAccount", "Request", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "separate-sections" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    @Html.Partial("~/Views/Shared/Forms/_Request.cshtml", Model)
+}

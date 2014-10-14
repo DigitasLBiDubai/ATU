@@ -1,4 +1,5 @@
-﻿using ATU.Domain;
+﻿using System.Web.Http.Cors;
+using ATU.Domain;
 using ATU.Domain.Abstract;
 using ATU.Domain.Concrete;
 using ATU.Domain.Data.Repository.Concrete;
@@ -11,6 +12,7 @@ using System.Web.Http;
 
 namespace ATU.Web.Interface.Api
 {
+    [EnableCors("*", "*", "*")]
     public class RequestController : ApiControllerBase
     {
         private readonly IRequestService _requestService = new RequestService(new ATURepository(), new PasswordGenerator(new ConfigurationService()), new RegistrationService(new ATURepository()));

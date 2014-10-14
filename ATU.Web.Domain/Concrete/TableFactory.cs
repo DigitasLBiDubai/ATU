@@ -55,7 +55,7 @@ namespace ATU.Web.Domain.Concrete
             {
                 Title = title,
                 ItemsPerPage = itemsPerPage,
-                TableHeaders = new List<string> { "Id", "Name", "Description" },
+                TableHeaders = new List<string> { "Status", "Question", "Category"},
                 Rows = _questionXRowMapper.MapQuestionsToRows(questions).ToList()
             };
 

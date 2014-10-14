@@ -8,5 +8,6 @@ namespace ATU.Domain.Abstract
         string CreateAccount(string userName, string password);
         bool ChangePassword(string userName, string oldPassword, string newPassword);
         int GetUserId(string userName);
+        string GetCurrentUserName();
     }
 }

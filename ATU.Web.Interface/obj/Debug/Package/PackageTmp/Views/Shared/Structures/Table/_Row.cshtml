@@ -1,0 +1,8 @@
+﻿@model ATU.Web.Domain.Model.Row
+
+    <tr>
+    @foreach(var cell in Model.Cells)
+    {
+        @Html.Partial("Structures/Table/_Cell", cell)
+    }
+    </tr>

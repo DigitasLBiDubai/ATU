@@ -5,6 +5,6 @@ namespace ATU.Web.Domain.Abstract
 {
     public interface ITopNavFactory
     {
-        TopNav BuildTopNav(string portalTitle);
+        TopNav BuildTopNav(string portalTitle, string CurrentUserName);
     }
 }

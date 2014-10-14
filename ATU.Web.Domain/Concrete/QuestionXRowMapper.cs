@@ -21,9 +21,10 @@ namespace ATU.Web.Domain.Concrete
 
             var row = new Row();
 
-            row.Cells.Add(new Cell(new Link(item.Id.ToString(), "/question/detail/" + item.Id, string.Empty), false));
-            row.Cells.Add(new Cell(item.Text, false));
-            row.Cells.Add(new Cell(item.Text, true));
+            //row.Cells.Add(new Cell(new Link(item.Id.ToString(), "/question/detail/" + item.Id, string.Empty), false));
+            row.Cells.Add(new Cell(item.Answers.Any() ? "Answered" : "* New", false));
+            row.Cells.Add(new Cell(new Link(item.Text, string.Format("/question/detail/{0}", item.Id), string.Empty), false));
+            row.Cells.Add(new Cell(item.Category != null ? item.Category.Text : string.Empty, false));
 
             return row;
         }

@@ -17,5 +17,7 @@ namespace ATU.Domain.Data
         public DbSet<Request> Requests { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<Client> Clients { get; set; }
     }
 }

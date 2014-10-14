@@ -2,14 +2,11 @@
 
     <thead>
         <tr>
-            <th>
-                <div>Rendering engine</div>
-            </th>
-            <th>
-                <div>Browser</div>
-            </th>
-            <th>
-                <div>Platform(s)</div>
-            </th>
+            @foreach (var title in Model)
+            {
+                <th>
+                    <div>@title</div>
+                </th>
+            }
         </tr>
     </thead>

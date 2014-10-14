@@ -1,4 +1,5 @@
-﻿using ATU.Web.Domain.Model.Answer;
+﻿using System.Collections.Generic;
+using ATU.Web.Domain.Model.Answer;
 using ATU.Web.Domain.Model.Question;
 using AutoMapper;
 using ATU.Domain.Model;
@@ -32,15 +33,23 @@ namespace ATU.Web.Domain.Concrete
             Mapper.CreateMap<Question, QuestionFields>();
             Mapper.CreateMap<QuestionFields, Question>();
 
-            Mapper.CreateMap<Question, QuestionApiListItem>();
-            Mapper.CreateMap<QuestionApiListItem, Question>();
-
             // Answer
             Mapper.CreateMap<Answer, AnswerFields>();
             Mapper.CreateMap<AnswerFields, Answer>();
 
-            Mapper.CreateMap<Answer, AnswerApiListItem>();
+           
             Mapper.CreateMap<AnswerApiListItem, Answer>();
+            Mapper.CreateMap<Question, QuestionApiListItem>().ForMember( dest => dest.Answers, opts => opts.MapFrom(src => src.Answers));;
+            Mapper.CreateMap<Answer, AnswerApiListItem>();
+            Mapper.CreateMap<QuestionApiListItem, Question>();
+
+            // Tag
+            Mapper.CreateMap<Tag, TagApiListItem>();
+            Mapper.CreateMap<TagApiListItem, Tag>();
+
+            // Category
+            Mapper.CreateMap<Category, CategoryApiListItem>();
+            Mapper.CreateMap<CategoryApiListItem, Category>();
         }
     }
 }

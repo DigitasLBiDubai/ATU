@@ -6,5 +6,7 @@ namespace ATU.Web.Domain.Model.Answer
         public string Text { get; set; }
 
         public int? QuestionId { get; set; }
+
+        public int? Id { get; set; }
     }
 }

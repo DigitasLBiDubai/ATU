@@ -1,0 +1,13 @@
+﻿@model ATU.Web.Domain.Model.RadioButtonList
+
+<div>
+    @Html.HiddenFor(x=>x.Id)
+    @foreach (var a in Model.RadioButtons)
+    {
+        a.Id = Model.Id;
+        
+        <p>
+            @Html.RadioButtonFor(b=>b.SelectedValue ,a.Checked, new{Name = Model.Id, Id = a.Value})  @a.Text
+        </p>
+    }
+</div>
