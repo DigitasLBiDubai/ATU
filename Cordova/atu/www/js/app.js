@@ -79,7 +79,7 @@ var app = {
             }
         }
 
-        page = app.merge(registerPage.template, { name: "Sign up for Unicorn wisedom.", description: "" });
+        page = app.merge(registerPage.template, { name: "Sign up for Unicorn wisdom", description: "" });
 		app.updateView(page);
         app.bindRegisterPageEvents();
     },
